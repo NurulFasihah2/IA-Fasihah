@@ -1,0 +1,250 @@
+<html>
+<head>
+<title> FRIENDS </title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<div><a name="Top_Page"> </a>
+<ul><b>
+<li><left> <a href="index.html"><img src="ASSEST/IMAGE/ICON/home.png" width="20px"></left></a>  
+</li>     
+<li> <a href="biodata.html"> BIODATA </a>  
+</li>  
+<li> <a href="education.html"> EDUCATION </a>  
+</li>  
+<li> <a href="family.html"> FAMILY </a>  
+</li>  
+<li> <a href="friends.html"> FRIENDS </a>  
+</li>  
+<li> <a href="gallery.html"> GALLERY </a>  
+</li>  
+</b></ul>
+</div>  
+
+
+<br><hr>
+<marquee direction="left" scrollamount="13">
+<center><font size="30"><i>
+Because of you, I laugh a little harder, cry a little less, and smile a lot more~</i>
+</marquee></font></center><hr>
+
+<br><br><br>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend1.jpg" style="width:100%" border="5">
+  <div class="text"><b>WITH ASIKIN</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend2.jpg" style="width:100%" border="5">
+  <div class="text"><b>BATCH '03</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend3.jpg" style="width:100%" border="5">
+  <div class="text"><b>PAINT THE CLASS WITH CLASSMATES</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend4.jpg" style="width:100%" border="5">
+  <div class="text"><b>WITH AFRINA</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend5.jpg" style="width:100%" border="5">
+  <div class="text"><b>ALSO WITH HER</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend6.jpg" style="width:100%" border="5">
+  <div class="text"><b>NEW CLASSMATES KIM120</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend7.jpg" style="width:100%" border="5">
+  <div class="text"><b>CELEBRATE HAPPY EID WITH MISS ZURAIDAH</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend8.jpg" style="width:100%" border="5">
+  <div class="text"><b>ANOTHER ONE</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend9.jpg" style="width:100%" border="5">
+  <div class="text"><b>CHECK OUR GROUP ASSIGNMENT ADOBE ANIMATE</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend10.jpg" style="width:100%" border="5">
+  <div class="text"><b>WITH AMIR</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend11.jpg" style="width:100%" border="5">
+  <div class="text"><b>LEARN ABOUT CODING</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">12 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend12.jpg" style="width:100%" border="5">
+  <div class="text"><b>ANUAL GENERAL MEETING</b></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">13 / 13</div>
+  <img src="ASSEST/IMAGE/FRIENDS/friend13.jpg" style="width:100%" border="5">
+  <div class="text"><b>BOOZY NIGHT</b></div>
+</div>
+
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<br><br><br>
+
+<br>
+<center>
+<table border="2" cellpadding="5px">
+
+</tr>
+
+<tr bgcolor="#7EC4CF">
+<td><center> Name </center></td>
+<td>
+<ul>
+<li> SKTA
+<ol>
+<li> Azza </li><br>
+<li> Irdina </li><br>
+<li> Puteri </li><br>
+<li> Masyitah </li><br>
+</ol>
+</li>
+<br><br><br>
+<li> SMKIE
+<ol type="1">
+<li> Afrina </li><br>
+<li> Asikin </li><br>
+<li> Ezurin </li><br>
+<li> Sufiah </li><br>
+<li> Farah </li><br>
+</ol>
+
+</td>
+</tr>
+
+
+<tr bgcolor="#7EC4CF">
+<td><center> UNIVERSITY </center></td>
+<td>
+
+<li> UiTM Diploma
+<ol type="a">
+<li> Umairah </li><br>
+<li> Fatin </li><br>
+<li> Sharina </li><br>
+<li> Zulaikha </li><br>
+<li> Syuhaila </li><br>
+<li> Syazleen </li><br>
+</ol>
+</ul>
+</td>
+
+</tr>
+
+</table>
+
+
+
+<br><br>
+<a href="#Top_Page">
+<img src="ASSEST/IMAGE/ICON/arrow_up.png" width="30px" align="right">
+</a>
+
+<br><br>
+
+
+<div class="footer">
+<ul class="socials">
+
+
+<p>copyright &copy; <a href="https://wa.link/f9tgyx" target="_blank">fasihahnd</a></p>
+
+<li>
+<a href="https://www.instagram.com/fasihahnd/" target="_blank"><i class="fa fa-instagram"><img src="ASSEST/IMAGE/ICON/instagram.png" width="20px">
+</i></a>
+</li>
+
+<li>
+<a href="mailto:2021499762@student.uitm.edu.my"><i class="fa fa-google-plus" target="_blank"><img src="ASSEST/IMAGE/ICON/email.png" width="20px">
+</i></a>
+</li>
+
+<li>
+<a href="https://wa.link/f9tgyx" target="_blank"><i class="fa fa-whatsapp"><img src="ASSEST/IMAGE/ICON/whatsapp.png" width="20px">
+</i></a>
+</li>
+
+</ul>
+</div>
+
+
+
+
+</body>
+</html>

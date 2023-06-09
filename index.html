@@ -1,0 +1,126 @@
+<html>
+<head>
+<title> HOME </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<body class="home">
+
+
+<div><a name="Top_Page"> </a>
+<ul><b>
+<li><left> <a href="index.html"><img src="ASSEST/IMAGE/ICON/home.png" width="20px"></left></a>  
+</li>   
+<li> <a href="biodata.html"> BIODATA </a>  
+</li>  
+<li> <a href="education.html"> EDUCATION </a>  
+</li>  
+<li> <a href="family.html"> FAMILY </a>  
+</li>  
+<li> <a href="friends.html"> FRIENDS </a>  
+</li>  
+<li> <a href="gallery.html"> GALLERY </a>  
+</li>   
+</b></ul>
+</div>  
+
+
+<br>
+    <div id="box" class="box" onload="animate()">02:14:25 PM</div>
+    
+    <script>
+            function animate(){
+        var date = new Date();
+        var hours = date.getHours();
+        var minutes = date.getMinutes();
+        var seconds = date.getSeconds();
+        var session = "AM";
+        
+        if(hours == 0){
+            hours = 12;
+        }
+        
+        if(hours > 12){
+            hours = hours - 12;
+            session = "PM";
+        }
+        
+        hours = (hours < 10) ? "0" + hours : hours;
+        minutes = (minutes < 10) ? "0" + minutes : minutes;
+        seconds = (seconds < 10) ? "0" + seconds : seconds;
+        
+        var time = hours + ":" + minutes + ":" + seconds + " " + session;
+        document.getElementById("box").innerText = time;
+        document.getElementById("box").textContent = time;
+        
+        setTimeout(animate, 1000);
+        
+    }
+     
+    animate();
+    </script>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!--- INSERTING VIDEO --->
+<video width="100%" autoplay muted loop>
+<source src="ASSEST/VIDEO/intro.mp4" type="video/mp4">
+</video>
+
+<br><br><br>
+
+<hr>
+<marquee direction="left" scrollamount="9">
+<center><font size="30">
+WELCOME TO MY CHANNEL | MY NAME IS NURUL FASIHAH NAZIRAH BINTI ZULKARNAIN
+</marquee></font></center>
+<hr>
+
+<br>
+
+<center>
+<blockquote>
+<font size="5">
+HI! How are you guys doing? This was the first ever I've done to create my own website through everything that I learn from class. Thank you and a big attribute to my lecturer, Sir Airul who taught me step-by-step to do the coding. Also, I did not forget my friends who always support and help me going through to make this website. Love you guys. I really appreciate it.
+</font>
+</blockquote>
+</center>
+
+
+<br><br><br>
+
+<a href="#Top_Page">
+<img src="ASSEST/IMAGE/ICON/arrow_up.png" width="30px" align="right">
+</a>
+<br><br>
+
+
+<div class="footer">
+<ul class="socials">
+
+
+<p>copyright &copy; <a href="https://wa.link/f9tgyx" target="_blank">fasihahnd</a></p>
+
+<li>
+<a href="https://www.instagram.com/fasihahnd/" target="_blank"><i class="fa fa-instagram"><img src="ASSEST/IMAGE/ICON/instagram.png" width="20px">
+</i></a>
+</li>
+
+<li>
+<a href="mailto:2021499762@student.uitm.edu.my"><i class="fa fa-google-plus" target="_blank"><img src="ASSEST/IMAGE/ICON/email.png" width="20px">
+</i></a>
+</li>
+
+<li>
+<a href="https://wa.link/f9tgyx" target="_blank"><i class="fa fa-whatsapp"><img src="ASSEST/IMAGE/ICON/whatsapp.png" width="20px">
+</i></a>
+</li>
+
+</ul>
+</div>
+
+
+</body>
+</html>
